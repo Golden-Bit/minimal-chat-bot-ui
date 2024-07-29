@@ -7,12 +7,9 @@ chatbot_config = dict()
 #######################################################
 
 chatbot_config["page_title"] = "Virtual Assistant For Technical Support"
-chatbot_config["page_icon"] = ("https://static.wixstatic.com/media/63b1fb_5823409f408844189cd81edc2e3720df~mv2.png")
-chatbot_config["ai_avatar_url"] = ("https://static.wixstatic.com/media/63b1fb_5823409f408844189cd81edc2e3720df~mv2.png")
-chatbot_config["user_avatar_url"] = ("https://encrypted-tbn0.gstatic.com/"
-                                        "images?q=tbn:ANd9GcQiBwY_zfAf9K1OBN1"
-                                        "eVu660SqIr6TliAKeAhAaWG5mxrLmsva8XPO"
-                                        "0xhW2kHwth4D3IWM&usqp=CAU")
+chatbot_config["page_icon"] = ("https://raw.githubusercontent.com/Golden-Bit/minimal-chat-bot-ui/main/resources/robot_chat_icon.PNG")
+chatbot_config["ai_avatar_url"] = ("https://raw.githubusercontent.com/Golden-Bit/minimal-chat-bot-ui/main/resources/robot_chat_icon.PNG")
+chatbot_config["user_avatar_url"] = ("https://raw.githubusercontent.com/Golden-Bit/minimal-chat-bot-ui/main/resources/user_chat_icon.png")
 
 #chatbot_config["image_1"] = "https://static.wixstatic.com/shapes/63b1fb_3ac1a3cb810046d1aed14ff69e132b51.svg"
 chatbot_config["image_1"] = "https://static.wixstatic.com/media/63b1fb_5ead15cfc329490d83b755fe95022ba3~mv2.png"
