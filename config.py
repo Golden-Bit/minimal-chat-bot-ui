@@ -25,3 +25,5 @@ chatbot_config["copyright"] = "<h4 style='text-align: center; color: nightblue;'
 #chatbot_config["api_address"] = "http://127.0.0.1"
 chatbot_config["api_address"] = "http://20.234.162.189"
 #######################################################
+
+chatbot_config["messages"] = []
