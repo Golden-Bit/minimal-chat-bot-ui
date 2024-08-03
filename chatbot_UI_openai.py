@@ -81,13 +81,17 @@ def main():
             message_placeholder = st.empty()
             s = requests.Session()
             full_response = ""
-            url = "http://127.0.0.1:8109/chains/stream_chain"
+            url = "http://34.78.163.86:8100/chains/stream_chain"
+            #url = "http://127.0.0.1:8100/chains/stream_chain"
             payload = {
-                "chain_id": "qa_chain",
+                "chain_id": "hf-embeddings__chat-openai_qa-chain",
                 "query": {
                     "input": prompt,
                     "chat_history": st.session_state.messages
-                }
+                },
+                "inference_kwargs": {
+
+                },
             }
 
             non_decoded_chunk = b''
